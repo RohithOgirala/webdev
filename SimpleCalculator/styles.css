@@ -1,0 +1,37 @@
+body{
+    padding: 100px;
+    background-color: rgba(37, 134, 208, 0.634);
+}
+Table{
+
+
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: rgb(198, 193, 186);
+
+}
+button{
+    padding:20px;
+font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(232, 233, 233, 0.741);
+}
+button:hover{
+    background-color: rgb(150, 156, 161);  
+}
+Tr{
+
+    background-color: rgb(63, 73, 73);
+
+}
+input{
+
+    padding:15px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+caption{
+    font-size: 20px;
+}

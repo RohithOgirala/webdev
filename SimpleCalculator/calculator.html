@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <script>
+        function ac()
+        {
+            document.getElementById("result").value="";
+    
+        }
+        function show(input)
+        {
+           
+            document.getElementById("result").value+=input; 
+        }
+       function calc()
+        {
+            var output=eval(document.getElementById("result").value);
+            document.getElementById("result").value=output;
+        }
+    </script>
+    <Table Border="1">
+        <caption>SIMPLE CALCULACTOR</caption>
+<TR>
+    <TD colspan="3"><input type="text" id="result" ></TD>
+    <TD><button onclick="ac()">AC</button></TD>
+
+
+</TR><br>
+<TR></TR>
+    <TD><button onclick="show('1')">1</button></TD>
+    <TD><button onclick="show('2')">2</button></TD>
+    <TD><button onclick="show('3')">3</button></TD>
+    <TD><button onclick="show('+')">+</button></TD>
+
+</TR><br>
+<TR>
+    <TD><button onclick="show('4')">4</button></TD>
+    <TD><button onclick="show('5')">5</button></TD>
+    <TD><button onclick="show('6')">6</button></TD>
+    <TD><button onclick="show('-')">-</button></TD>
+
+</TR><br>
+
+<TR>
+    <TD><button onclick="show('7')">7</button></TD>
+    <TD><button onclick="show('8')">8</button></TD>
+    <TD><button onclick="show('9')">9</button></TD>
+    <TD><button onclick="show('*')">*</button></TD>
+
+</TR><br>
+
+<TR>
+    <TD><button onclick="show('0')">0</button></TD>
+    <TD><button onclick="show('%')">%</button></TD>
+    <TD><button onclick="show('/')">/</button></TD>
+    <TD><button onclick="calc()">=</button></TD>
+
+</TR>
+</Table>
+
+
+</body>
+</html>
